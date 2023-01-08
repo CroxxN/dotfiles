@@ -1,0 +1,36 @@
+theme = "onedarker"
+
+[editor]
+line-number = "relative" 
+gutters = ["line-numbers", "spacer"]
+completion-trigger-len = 1
+bufferline = "always"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor.statusline]
+separator = "||"
+left = ["mode", "spinner", "total-line-numbers"]
+center =["diagnostics", "file-name"]
+right = ["selections", "position", "file-encoding", "file-line-ending", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+
+[editor.file-picker]
+hidden = false
+
+[editor.whitespace.render]
+tabpad = "all"
+
+[editor.whitespace.characters]
+tabpad = "."
+
+[editor.indent-guides]
+render = true
+character = "┆"
+skip-levels = 1
