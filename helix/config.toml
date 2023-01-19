@@ -5,7 +5,6 @@ line-number = "relative"
 gutters = ["line-numbers", "spacer", "diff", "diagnostics"]
 completion-trigger-len = 1
 bufferline = "always"
-auto-info = false
 color-modes = true
 
 [editor.cursor-shape]
