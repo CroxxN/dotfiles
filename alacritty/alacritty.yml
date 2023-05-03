@@ -112,6 +112,6 @@ key_bindings:
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
-  - { key: N, mods: Control, action: SpawnNewInstance}
+  - { key: N, mods: Control|Alt, action: SpawnNewInstance}
   - { key: K, mods: Control|Alt, action: Minimize }
   - { key: Q, mods: Control|Alt, action: Quit }
