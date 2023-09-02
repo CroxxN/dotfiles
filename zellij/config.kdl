@@ -147,6 +147,15 @@ keybinds {
         bind "Alt [" { PreviousSwapLayout; }
         bind "Alt ]" { NextSwapLayout; }
     }
+
+    shared_except "locked" {
+        bind "F1" {
+            LaunchOrFocusPlugin "file:~/zellij-plugins/monocle" {
+                floating true
+            }
+        }
+    }
+
     shared_except "normal" "locked" {
         bind "Enter" "Esc" { SwitchToMode "Normal"; }
     }
@@ -180,12 +189,15 @@ plugins {
     compact-bar { path "compact-bar"; }
 }
 
-layout{
-    pane split_direction="vertical" cwd="/media/croxx/vixen/algorithms"{
-        pane size="80%"
-        pane size="20%"
-    }
-}
+// layout{
+//     pane split_direction="vertical" cwd="/media/croxx/vixen/algorithms"{
+//         pane size="80%"
+//         pane size="20%"
+//     }
+// }
+
+
+
 // Choose what to do when zellij receives SIGTERM, SIGINT, SIGQUIT or SIGHUP
 // eg. when terminal window with an active zellij session is closed
 // Options:

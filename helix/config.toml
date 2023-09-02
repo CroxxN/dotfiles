@@ -9,7 +9,7 @@ color-modes = true
 auto-info = true
 
 [editor.cursor-shape]
-insert = "bar"
+insert = "block"
 normal = "block"
 select = "block"
 
@@ -18,9 +18,9 @@ enable = true
 
 [editor.statusline]
 separator = "||"
-left = ["mode", "spinner", "total-line-numbers"]
-center =["diagnostics", "file-name", "version-control"]
-right = ["selections", "position", "file-encoding", "file-line-ending", "file-type"]
+left = ["mode", "spinner","file-type", "total-line-numbers"]
+center =["diagnostics", "file-name", "spacer", "version-control"]
+right = ["selections", "position", "file-encoding", "file-line-ending",]
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
