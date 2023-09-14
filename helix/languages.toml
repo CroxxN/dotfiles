@@ -5,3 +5,8 @@ config  = { inlayHints = { closureReturnTypeHints = {enable = "always"}}}
 [[language]]
 name = "cpp"
 indent = {tab-width = 4 , unit = "    "}
+
+[[language]]
+name = "html"
+file-types = ["html", "htm"]
+language-server = {command = "vscode-html-language-server", args=["--stdio"]}

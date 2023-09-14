@@ -7,6 +7,7 @@ completion-trigger-len = 1
 bufferline = "always"
 color-modes = true
 auto-info = true
+true-color = true
 
 [editor.cursor-shape]
 insert = "block"
@@ -41,3 +42,7 @@ tabpad = "."
 render = true
 character = "┆"
 skip-levels = 1
+
+[keys.normal]
+C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
+C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
