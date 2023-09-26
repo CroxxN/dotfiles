@@ -1,12 +1,22 @@
 [[language]]
-name = "rust"
-config  = { inlayHints = { closureReturnTypeHints = {enable = "always"}}}
-
-[[language]]
 name = "cpp"
 indent = {tab-width = 4 , unit = "    "}
 
 [[language]]
-name = "html"
-file-types = ["html", "htm"]
-language-server = {command = "vscode-html-language-server", args=["--stdio"]}
+name = "c"
+indent = {tab-width = 4 , unit = "    "}
+
+[[language]]
+name = "rust"
+config  = { inlayHints = { closureReturnTypeHints = {enable = "always"}}}
+
+[language.debugger]
+name = "lldb-vscode"
+transport = "stdio"
+command = "lldb-vscode"
+
+[[language.debugger.templates]]
+name = "binary"
+request = "launch"
+completion = [{name = "binary", completion = "filename"}]
+args = {program = "{0}", initCommands = ["command script import .rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/lldb_lookup.py", "command source -s 0 .rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/lldb_commands"]}
