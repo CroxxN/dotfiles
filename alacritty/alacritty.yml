@@ -8,7 +8,7 @@ env:
   TERM: xterm-256color
 
 window:
-  opacity: 0.97
+  # opacity: 0.97
   padding:
     x: 2
     y: 2
@@ -19,7 +19,7 @@ draw_bold_text_with_bright_colors: true
 
 decorations: none
 
-schmes:
+schemes:
   Dracula: &Dracula
     primary:
       background: '#282a36'
@@ -74,7 +74,36 @@ schmes:
       cyan:    '#59dffc'
       white:   '#e6e6d1'
 
-colors: *Dracula
+  everdark: &everdark
+    primary:
+      background: '0x2d353b'
+      foreground: '0xd3c6aa'
+
+    # Normal colors
+    normal:
+      black:   '0x475258'
+      red:     '0xe67e80'
+      green:   '0xa7c080'
+      yellow:  '0xdbbc7f'
+      blue:    '0x7fbbb3'
+      magenta: '0xd699b6'
+      cyan:    '0x83c092'
+      white:   '0xd3c6aa'
+
+    # Bright colors
+    bright:
+      black:   '0x475258'
+      red:     '0xe67e80'
+      green:   '0xa7c080'
+      yellow:  '0xdbbc7f'
+      blue:    '0x7fbbb3'
+      magenta: '0xd699b6'
+      cyan:    '0x83c092'
+      white:   '0xd3c6aa' 
+     
+colors: *everdark
+# colors: *Dracula
+
 # colors:
 #   # Default colors
 #   primary:

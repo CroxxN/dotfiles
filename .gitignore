@@ -3,4 +3,5 @@
 !zellij
 !helix/
 !.gitignore
+!starship.toml
 !xplr/*
