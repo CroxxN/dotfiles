@@ -182,12 +182,12 @@ keybinds {
     }
 }
 
-plugins {
-    tab-bar { path "tab-bar"; }
-    status-bar { path "status-bar"; }
-    strider { path "strider"; }
-    compact-bar { path "compact-bar"; }
-}
+// plugins {
+//     tab-bar { path "tab-bar"; }
+//     status-bar { path "status-bar"; }
+//     strider { path "strider"; }
+//     compact-bar { path "compact-bar"; }
+// }
 
 // layout{
 //     pane split_direction="vertical" cwd="/media/croxx/vixen/algorithms"{
