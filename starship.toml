@@ -86,7 +86,7 @@ disabled = false
 threshold=30
 symbol = " "
 disabled = false
-format = '[mem: $ram](bold yellow) '
+format = '[roids: $ram_pct](bold yellow) '
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
@@ -148,6 +148,9 @@ symbol = " "
 [hg_branch]
 symbol = " "
 
+[sudo]
+disabled = false
+
 [java]
 symbol = " "
 
@@ -161,7 +164,7 @@ symbol = " "
 symbol = " "
 
 [package]
-symbol = " "
+disabled=true
 
 [perl]
 symbol = " "
