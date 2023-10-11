@@ -20,3 +20,22 @@ name = "binary"
 request = "launch"
 completion = [{name = "binary", completion = "filename"}]
 args = {program = "{0}", initCommands = ["command script import .rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/lldb_lookup.py", "command source -s 0 .rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/etc/lldb_commands"]}
+
+# [[language]]
+# name = "javascript"
+# language-server = {command="typescript-language-server", args=["--stdio"]}
+
+[language-server.typescript-language-server]
+command = "typescript-language-server"
+args = ["--stdio"]
+config.hostInfo = "helix"
+
+[[language]]
+name = "html"
+
+[language.auto-pairs]
+'<' = '>'
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'

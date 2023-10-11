@@ -76,7 +76,7 @@ esac
 eval "$(starship init bash)"
 # zoxide - modern cd
 eval "$(zoxide init bash)"
-
+# github-copilot-cli
 # if [ "$color_prompt" = yes ]; then
 #     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 # else
@@ -148,3 +148,5 @@ source /usr/share/doc/fzf/examples/key-bindings.bash
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 export SUDO_EDITOR='/home/croxx/Downloads/helix-23.05-x86_64-linux/hx'
+
+eval "$(github-copilot-cli alias -- "$0")"
