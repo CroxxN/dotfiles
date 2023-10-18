@@ -160,10 +160,6 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 export SUDO_EDITOR='/home/croxx/Downloads/helix-23.05-x86_64-linux/hx'
 
-eval "$(starship init zsh)"
-eval "$(zoxide init zsh)"
-eval "$(github-copilot-cli alias -- "$0")"
-
 plugins=(
     git
     vi-mode
@@ -171,6 +167,11 @@ plugins=(
     rust
     ripgrep
 )
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(github-copilot-cli alias -- "$0")"
+
 
 COREDUMPPATH=/media/croxx/vixen/coredumps
 
