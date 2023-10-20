@@ -1,5 +1,9 @@
-*
+/*
 !alacritty/
+!hypr/
+!waybar/
+!swaylock/
+!swayidle/
 !zellij
 !helix/
 !.gitignore
