@@ -6,6 +6,9 @@
 !swayidle/
 !zellij
 !helix/
+!swayosd/
+!wlogout/
+!wofi/
 !.gitignore
 !starship.toml
 !.bash*
