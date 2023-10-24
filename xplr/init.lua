@@ -11,12 +11,13 @@ version = "0.21.3"
 -- yp - for copying the file/folder path
 -- yP - for copying the parent file/folder path
 
-require("xclip").setup{
-  copy_command = "xclip-copyfile",
-  copy_paths_command = "xclip -sel clip",
-  paste_command = "xclip-pastefile",
+require("wl-clipboard").setup{
+  copy_command = "wl-copy -t text/uri-list",
+  -- copy_paths_command = "wl-paste",
+  paste_command = "wl-paste",
   keep_selection = false,
 }
+
 require("alacritty").setup{
   mode = "default",
   key = "ctrl-n",
@@ -32,7 +33,7 @@ require("fzf").setup{
   mode = "default",
   key = "ctrl-f",
   bin = "fzf",
-  args = "--preview 'pistol {}'",
+  args = "--preview 'bat -f {}'",
   recursive = false,  -- If true, search all files under $PWD
   enter_dir = false,  -- Enter if the result is directory
 }

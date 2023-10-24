@@ -121,7 +121,7 @@ schemes:
       cyan:    '0x83c092'
       white:   '0xd3c6aa' 
      
-colors: *everdark
+colors: *Dracula
 # colors: *Dracula
 
 working_directory: ~

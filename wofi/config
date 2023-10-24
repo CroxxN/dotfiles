@@ -4,6 +4,6 @@ height=400
 always_parse_args=true
 print_command=true
 insensitive=true
-prompt= Hmm, what do you want to run?
+prompt= Searching, are we?
 allow-images=true
 allow-markup=true

@@ -58,6 +58,7 @@ tooltip {
 #temperature,
 #workspaces,
 #tray,
+#submap,
 #backlight,
 #keyboard-state {
     background: #1e1e2e;
@@ -155,3 +156,9 @@ tooltip {
     border-radius: 20px 20px 20px 20px;
 }
 
+#submap{
+    color: #ff0000;
+    border-radius: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+}

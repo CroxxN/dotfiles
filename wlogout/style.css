@@ -19,6 +19,22 @@ button:focus, button:active, button:hover {
 	outline-style: none;
 }
 
+#lock{
+  border-radius: 20px 0 0 0;
+}
+
+#hibernate{
+  border-radius: 0px 0 0 20px;
+}
+
+#suspend{
+  border-radius: 0 20px 0 0
+}
+
+#reboot{
+  border-radius: 0 0px 20px 0;
+}
+
 #lock {
     background-image: image(url("/usr/share/wlogout/icons/lock.png"), url("/usr/local/share/wlogout/icons/lock.png"));
 }
