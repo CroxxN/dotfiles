@@ -5,8 +5,15 @@
 ## I use
 
 - Alacritty
-- Bash
-- Zelij
+- zsh
+- Zellij
 - Starship
 - Helix
+- Waybar
+- Hyprland
+- SwayOSD
+- Swaylock
+- wlogout
+
+and other things...
 
