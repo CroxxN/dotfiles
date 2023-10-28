@@ -13,5 +13,5 @@
 !starship.toml
 !.bash*
 !xplr/*
-!.zsh*
+!.zshrc
 !oh-my-zsh/
