@@ -21,7 +21,7 @@ datestr=%a, %eth of %B
 image=~/Pictures/wall.jpg
 
 # Fade in time
-fade-in=1
+fade-in=0.5
 
 # Effect for background
 effect-blur=20x2

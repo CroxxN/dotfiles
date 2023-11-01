@@ -28,6 +28,7 @@ mode.select = "SELECT"
 
 [editor.lsp]
 display-inlay-hints = true
+auto-signature-help = false
 
 [editor.file-picker]
 hidden = false

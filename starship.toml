@@ -15,7 +15,7 @@ disabled = false
 threshold=10
 symbol = "󰣀 "
 disabled = false
-format = '[roids: $ram_pct](bold yellow) '
+format = '[on $ram_pct roids](bold yellow) '
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
