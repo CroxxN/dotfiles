@@ -17,4 +17,5 @@
 !.zshrc
 !.emacs
 !.emacs.d/*
+!emacs*
 !oh-my-zsh/
