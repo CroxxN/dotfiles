@@ -3,14 +3,14 @@ theme = "autumn"
 [editor]
 line-number = "relative" 
 gutters = ["line-numbers", "spacer", "diff", "diagnostics"]
-completion-trigger-len = 1
+completion-trigger-len = 2
 bufferline = "always"
 color-modes = true
 auto-info = true
 true-color = true
 
 [editor.cursor-shape]
-insert = "block"
+insert = "bar"
 normal = "block"
 select = "block"
 
@@ -19,7 +19,7 @@ enable = true
 
 [editor.statusline]
 separator = "||"
-left = ["mode", "spinner","file-type", "total-line-numbers"]
+left = ["mode", "spinner","file-type", "total-line-numbers", "read-only-indicator"]
 center =["diagnostics", "file-name", "spacer", "version-control"]
 right = ["selections", "position", "file-encoding", "file-line-ending",]
 mode.normal = "NORMAL"
@@ -28,7 +28,6 @@ mode.select = "SELECT"
 
 [editor.lsp]
 display-inlay-hints = true
-auto-signature-help = false
 
 [editor.file-picker]
 hidden = false
@@ -47,3 +46,9 @@ skip-levels = 1
 [keys.normal]
 C-j = ["extend_to_line_bounds", "delete_selection", "paste_after"]
 C-k = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-x = "extend_to_line_bounds"
+
+[keys.select]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-x = "extend_to_line_bounds"
