@@ -41,6 +41,9 @@ style = "bold italic red"
 threshold = 100
 style = 'bold red'
 
+[battery]
+format = '[juiced $symbol$percentage ]($style)'
+
 [aws]
 symbol = "  "
 
