@@ -1,0 +1,229 @@
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#4d4d4d"
+blue = "#caa9fa"
+cyan = "#9aedfe"
+green = "#5af78e"
+magenta = "#ff92d0"
+red = "#ff6e67"
+white = "#e6e6e6"
+yellow = "#f4f99d"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.dim]
+black = "#14151b"
+blue = "#4d5b86"
+cyan = "#59dffc"
+green = "#000000"
+magenta = "#ff46b0"
+red = "#ff2222"
+white = "#e6e6d1"
+yellow = "#ebf85b"
+
+[colors.line_indicator]
+background = "None"
+foreground = "None"
+
+[colors.normal]
+black = "#000000"
+blue = "#bd93f9"
+cyan = "#8be9fd"
+green = "#cbc3e3"
+magenta = "#ff79c6"
+red = "#ff5555"
+white = "#bfbfbf"
+yellow = "#f1fa8c"
+
+[colors.primary]
+background = "#282a36"
+foreground = "#f8f8f2"
+
+[colors.search.focused_match]
+background = "#ffb86c"
+foreground = "#44475a"
+
+# [colors.search.footer_bar]
+# background = "#282a36"
+# foreground = "#f8f8f2"
+
+[colors.search.matches]
+background = "#50fa7b"
+foreground = "#44475a"
+
+[colors.selection]
+background = "#44475a"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[env]
+TERM = "xterm-256color"
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Italic"
+
+# [font.light]
+# family = "FiraCode Nerd Font"
+# style = "Light"
+
+# [font.medium]
+# family = "FiraCode Nerd Font"
+# style = "Medium"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+action = "Minimize"
+key = "K"
+mods = "Control|Alt"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "Q"
+mods = "Control|Alt"
+
+# [schemes.Dracula.bright]
+# black = "#4d4d4d"
+# blue = "#caa9fa"
+# cyan = "#9aedfe"
+# green = "#5af78e"
+# magenta = "#ff92d0"
+# red = "#ff6e67"
+# white = "#e6e6e6"
+# yellow = "#f4f99d"
+
+# [schemes.Dracula.cursor]
+# cursor = "CellForeground"
+# text = "CellBackground"
+
+# [schemes.Dracula.dim]
+# black = "#14151b"
+# blue = "#4d5b86"
+# cyan = "#59dffc"
+# green = "#000000"
+# magenta = "#ff46b0"
+# red = "#ff2222"
+# white = "#e6e6d1"
+# yellow = "#ebf85b"
+
+# [schemes.Dracula.line_indicator]
+# background = "None"
+# foreground = "None"
+
+# [schemes.Dracula.normal]
+# black = "#000000"
+# blue = "#bd93f9"
+# cyan = "#8be9fd"
+# green = "#cbc3e3"
+# magenta = "#ff79c6"
+# red = "#ff5555"
+# white = "#bfbfbf"
+# yellow = "#f1fa8c"
+
+# [schemes.Dracula.primary]
+# background = "#282a36"
+# foreground = "#f8f8f2"
+
+# [schemes.Dracula.search.focused_match]
+# background = "#ffb86c"
+# foreground = "#44475a"
+
+# [schemes.Dracula.search.footer_bar]
+# background = "#282a36"
+# foreground = "#f8f8f2"
+
+# [schemes.Dracula.search.matches]
+# background = "#50fa7b"
+# foreground = "#44475a"
+
+# [schemes.Dracula.selection]
+# background = "#44475a"
+# text = "CellForeground"
+
+# [schemes.Dracula.vi_mode_cursor]
+# cursor = "CellForeground"
+# text = "CellBackground"
+
+# [schemes.everdark.bright]
+# black = "0x475258"
+# blue = "0x7fbbb3"
+# cyan = "0x83c092"
+# green = "0xa7c080"
+# magenta = "0xd699b6"
+# red = "0xe67e80"
+# white = "0xd3c6aa"
+# yellow = "0xdbbc7f"
+
+# [schemes.everdark.normal]
+# black = "0x475258"
+# blue = "0x7fbbb3"
+# cyan = "0x83c092"
+# green = "0xa7c080"
+# magenta = "0xd699b6"
+# red = "0xe67e80"
+# white = "0xd3c6aa"
+# yellow = "0xdbbc7f"
+
+# [schemes.everdark.primary]
+# background = "0x2d353b"
+# foreground = "0xd3c6aa"
+
+[scrolling]
+history = 10000
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 1
+
+[window.padding]
+x = 3
+y = 1
+
+[terminal]

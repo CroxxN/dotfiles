@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 # -- FROM BASH --
-export EDITOR='hx'
+export EDITOR='helix'
 
 # Apps
 export PATH=$PATH:/home/croxx/Downloads/Lapce
@@ -113,8 +113,12 @@ export PATH=/home/croxx/.codon/bin:$PATH
 export PATH=$PATH:/home/croxx/bin
 # export PATH=$PATH:/home/croxx/Downloads
 export PATH=$PATH:/usr/local/go/bin
+# for ruby gems
+export PATH=$PATH:/home/croxx/.local/share/gem/ruby/3.0.0/bin
 # LSP
 export PATH=$PATH:/home/croxx/lsp
+export PATH=$PATH:/home/croxx/.config/music.zsh
+
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 export FZF_DEFAULT_COMMAND='fd --type file --hidden --no-ignore -E "{.git,target,node_modules}"'
@@ -132,6 +136,8 @@ alias exa='exa --icons -F'
 alias exal='exa --header --binary -al'
 # alias when piping to utilities like du
 alias exan='exa --no-icons'
+alias lofi=music.zsh
+alis stoplofi='killall -9 mpv'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -158,7 +164,7 @@ source /usr/share/doc/fzf/examples/key-bindings.zsh
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
-export SUDO_EDITOR='/home/croxx/Downloads/helix-23.05-x86_64-linux/hx'
+export SUDO_EDITOR='helix'
 
 plugins=(
     git

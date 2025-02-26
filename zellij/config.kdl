@@ -150,8 +150,8 @@ keybinds {
 
     shared_except "locked" {
         bind "F1" {
-            LaunchOrFocusPlugin "file:~/zellij-plugins/monocle" {
-                floating true
+            LaunchOrFocusPlugin "file:~/.config/zellij/plugins/monocle" {
+                kiosk true
             }
         }
     }

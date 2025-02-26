@@ -124,7 +124,7 @@ schemes:
 colors: *Dracula
 # colors: *Dracula
 
-working_directory: ~
+# working_directory: ~
 
 key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
